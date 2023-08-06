@@ -1,0 +1,21 @@
+@layer base {
+  html {
+    font-family: "Euclid Circular B", sans-serif;
+  }
+}
+
+.response > :first-child {
+  display: inline;
+}
+
+.response > p {
+  margin-top: 10px;
+}
+
+.response > ul {
+  @apply list-decimal list-inside p-4;
+}
+
+.response > ul > li {
+  @apply p-1;
+}

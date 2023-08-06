@@ -1,0 +1,29 @@
+{
+  "name": "vite-template-solid",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "prettier": "prettier --write -l '{**/*,*}.{js,cjs,mjs,ts,jsx,tsx,css,pcss,json,html}'"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "solid-devtools": "^0.27.3",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.3.9",
+    "vite-plugin-solid": "^2.7.0"
+  },
+  "dependencies": {
+    "@solid-primitives/upload": "^0.0.113",
+    "@solidjs/router": "^0.8.2",
+    "dompurify": "^3.0.5",
+    "prettier": "^3.0.0",
+    "solid-js": "^1.7.6",
+    "uuid": "^9.0.0"
+  }
+}
